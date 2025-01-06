@@ -1,0 +1,17 @@
+/* 
+    */
+ h1{
+    color:aqua;
+ }
+
+ h2{
+    color:rgb(53, 131, 44);
+ }
+
+h3{
+    color: rgb(10%, 20%,30%);
+}
+
+div p cite {
+    color:rgba(49, 163, 239, 1);
+}

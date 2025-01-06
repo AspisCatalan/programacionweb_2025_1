@@ -1,0 +1,15 @@
+div{
+    background: #ccc;
+    width: 100%;
+}
+
+img {
+    height:auto ; /*DEFORMA LA IMAGEN*/
+    width: 300px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+    margin: auto;  /*centra la imagen (contenedores)*/
+    display: block;
+    border-radius: 5px ;/*redondeas los radios*/
+    /*box-shadow: 5px 5px 0px yellow; sombras*/
+    padding: 10px;
+    border: 2px solid yellowgreen;
+}

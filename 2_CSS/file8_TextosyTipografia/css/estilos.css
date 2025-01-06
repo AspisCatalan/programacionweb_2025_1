@@ -1,0 +1,19 @@
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    background: #ccc;
+}
+p{
+    /* color:rgba(0, 0, 0, 0.5); */
+    font-family: Roboto;
+    font-size: 20px;  /*15pt*/
+    font-weight: normal; /*Anchura de las letras, bold*/
+    text-align: left; /*left, centerm right*/
+    line-height: 30px; /*Tamaño de la linea*/
+    text-decoration: none; /*overline, line-throught, underline*/
+    text-transform: capitalize;/*capitaliza -> todas las primera letras en mayusculas, uppercase -> todas mayusculas, lowercase*/
+    letter-spacing: normal; /*espaciados entre letras*/
+    word-spacing: normal;
+    text-shadow: 1px 1px 0px #000;  /*sombras en texto*/
+}

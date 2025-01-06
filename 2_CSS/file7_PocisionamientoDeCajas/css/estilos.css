@@ -1,0 +1,45 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: #2672f4;
+    color:#fff;
+    font-size: 30px;
+    float:left ;
+    /* float: right; */
+}
+
+/* .caja{
+    position: relative;
+    top:100px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;
+} */
+
+
+/* .caja_padre{
+    width: 500px;
+    height: 500px;
+    background: #000 ;
+    position:relative ;
+} */
+
+/* .caja{
+    position:absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left:50px;
+} */
+
+/* .caja{
+    position:fixed;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left:50px;
+} */
+
+.caja{
+    position: static;
+}

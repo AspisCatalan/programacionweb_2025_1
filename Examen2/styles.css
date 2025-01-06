@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box; /*define cómo se incluye el relleno (padding) y el borde (border) en el tamaño total de un elemento.*/
+  margin: 0; /* Elimina el margen por defecto */
+  padding: 0; /* Elimina el padding por defecto */
+}
+
+
+body {
+  display: flex; /* Centra la tarjeta en el eje horizontal y vertical */
+  justify-content: center; /* Alinea al centro horizontal */
+  align-items: center; /* Alinea al centro vertical */
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  background-color: #000000; /* Color de fondo oscuro para contraste */
+  font-family: Roboto, Arial, sans-serif; /* Fuente de texto */
+}
+
+h1{
+    color: black; /*Color del nombre*/
+}
+
+/* Estilos para el contenedor de la tarjeta */
+.tarjeta {
+  background-color: #1b1a19; /* Fondo para la tarjeta */
+  color: #d9cab3; /*Color de las letras*/
+  width: 600px; /* Ancho de la tarjeta */
+  padding: 20px; /* Espacio interno en la tarjeta */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.4); /* Sombra para dar profundidad */
+  text-align: center; /* Centra el contenido dentro de la tarjeta */
+}
+
+/* Estilos para la imagen de perfil */
+.foto img {
+  width: 120px; /* Ancho de la imagen */
+  height: 120px; /* Alto de la imagen */
+  border-radius: 50%; /* Hace la imagen redonda */
+  margin-bottom: 15px; /* Espacio debajo de la imagen */
+  border: 2px solid #bc8034; /*Crea un borde en la imagen*/
+}
+
+.imagen img{
+  width: 120px; /* Ancho de la imagen */
+  height: 120px; /* Alto de la imagen */
+  position: absolute; /* Permite posicionar la imagen dentro de la tarjeta */
+  top: 20px; /* Ajusta la distancia desde la parte superior de la tarjeta */
+  left: 20px; /* Ajusta la distancia desde el borde izquierdo de la tarjeta */
+}
+
+/* Estilos para el nombre */
+.nombre {
+  font-size: 2em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  padding: 5px 10px; /* Espacio interno en el nombre */
+  background-color: #bc8034; 
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para la descripción */
+.descripcion {
+  font-size: 1.5em; /* Tamaño de fuente normal */
+  margin: 10px 0; /* Espacio arriba y abajo */
+  color: #bc8034; 
+}
+
+/* Estilos para el contenedor de los enlaces de contacto */
+.contacto {
+  margin-top: 15px; /* Espacio en la parte superior */
+}
+
+/* Estilos para los enlaces de contacto */
+.contacto a {
+  display: inline-block; /* Hace que solo ocupe el espacio necesario */
+  color: #d9cab3; 
+  text-decoration: none; /* Elimina el subrayado */
+  margin: 5px 0; /* Espacio entre los enlaces */
+  padding: 10px; /* Espacio interno en cada enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Efecto de transición suave para el fondo */
+  text-align: right;
+
+}
+
+
+/* Estilo para el enlace de teléfono al pasar el cursor */
+.contacto a.telefono:hover {
+  background-color: #25D366; 
+}
+
+.contacto a.correo:hover {
+  background-color: #007acc; 
+}
+
+.contacto a.git:hover{
+    background-color: rgb(87, 83, 76);
+}
+

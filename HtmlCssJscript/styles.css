@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d9cab3;
+    color: #1b1a19;
+}
+
+header {
+    background-color: #333;
+    color: #d9cab3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.perfil img{
+        height:auto ; /*DEFORMA LA IMAGEN*/
+        width: 300px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+        margin: auto;  /*centra la imagen (contenedores)*/
+        display: block;
+        border-radius: 5px ;/*redondeas los radios*/
+        padding: 10px;
+        border: 2px solid #cd7f32;   
+}
+ 
+.proyecto img{
+    height:auto ; /*DEFORMA LA IMAGEN*/
+        width: 150px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+        margin: auto;  /*centra la imagen (contenedores)*/
+        display: block;
+        border-radius: 5px ;/*redondeas los radios*/
+        padding: 10px;
+        
+ }
+
+nav .menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav .menu li {
+    margin: 0;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #d9cab3;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+}
+
+nav .menu a:hover {
+    border-bottom: 2px solid #d9cab3;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.proyectos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.proyecto {
+    background-color: #d9cab3;
+    padding: 20px;
+    box-shadow: 0 2px 5px #cd7f32;
+    border-radius: 5px;
+    
+}
+
+
+
+/* Estilo para el formulario de contacto */
+#contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #cd7f32;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+
+}
+
+#contact-form button {
+    background-color: #cd7f32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1b1a19;
+    color: #d9cab3;
+}

@@ -1,0 +1,14 @@
+body{
+    background: url(../imagenes/DNH.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color:green;
+    background-position: center 0px;
+}
+/* 
+div {  
+    background: url(../imagenes/DNH.png);
+    height: 300px;
+    color:#fff;
+    background-repeat: no-repeat;
+} */

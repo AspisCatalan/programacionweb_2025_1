@@ -1,0 +1,39 @@
+/*selector universal*/
+  /* *{                  
+       margin:0; /*margen*/
+  /*   padding:0; /*margen interno*/
+  /* } */ 
+
+h1,h2{
+    color: red;
+}
+
+h1{
+    font-size:50px ;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/* p{
+    color: blue;
+} */
+
+p a{
+    color:red;
+    font-size:20px;
+}
+
+#green{
+    color:green
+}
+
+p .green {
+    color:green;
+}
+
+a[href="https://www.google.com/"]{
+    color: #B87333;
+    font-size: 40px;
+}

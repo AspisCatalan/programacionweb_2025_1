@@ -1,0 +1,42 @@
+a{
+    font-size: 20px;
+    /* color: black; */
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 20px;
+    display: inline-block;
+    background: #3BA7E1;
+    color: #FFF;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px #1d64a6;
+}
+
+a:hover{
+    box-shadow: 0px 2px 0px #1d64a6;
+}
+
+a:active{
+    box-shadow: none;
+}
+
+
+/* a:link {
+    color: aquamarine;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: black;
+    color:aliceblue;
+
+}
+
+a:visited{
+    color: black;
+    text-decoration: line-through;
+}
+
+a:active{
+    background: chocolate;
+} */
+

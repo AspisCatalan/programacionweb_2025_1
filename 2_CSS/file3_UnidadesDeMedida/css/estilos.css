@@ -1,0 +1,29 @@
+/*Uniadades de medida*/
+/*  Medidas absoluta -> valor fijo
+    cm, mm, in
+    Medidas relativa -> valor flexible 
+    em -> el valor del elemento padre em=12
+    rem -> el valor 
+    */
+
+body{
+    font-size: 12px;
+}
+ div{
+    font-size: 20px;
+ }
+
+div p {
+    font-size: 2em;
+}
+
+div p cite {
+    font-size: 1rem;
+    color: greenyellow;
+}
+
+div {
+    background:black;
+    color:#fff;
+    width: 50%;
+}
