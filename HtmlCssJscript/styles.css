@@ -21,7 +21,7 @@ header {
 
 .perfil img{
         height:auto ; /*DEFORMA LA IMAGEN*/
-        width: 300px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+        width: 700px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
         margin: auto;  /*centra la imagen (contenedores)*/
         display: block;
         border-radius: 5px ;/*redondeas los radios*/
@@ -30,14 +30,26 @@ header {
 }
  
 .proyecto img{
-    height:auto ; /*DEFORMA LA IMAGEN*/
-        width: 150px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+        height:auto ; /*DEFORMA LA IMAGEN*/
+        width: 500px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
         margin: auto;  /*centra la imagen (contenedores)*/
         display: block;
         border-radius: 5px ;/*redondeas los radios*/
         padding: 10px;
+        border-radius: 5px ;/*redondeas los radios*/
+        padding: 10px;
+        border: 2px solid #cd7f32;   
         
  }
+.links li a{
+    color: #1b1a19;
+    text-decoration: none;
+}
+
+.links li {
+    color: #cd7f32;
+}
+
 
 nav .menu {
     list-style: none;
@@ -93,7 +105,7 @@ section {
 
 /* Estilo para el formulario de contacto */
 #contact-form {
-    background-color: #f9f9f9;
+    background-color: #d8a674;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -142,7 +154,13 @@ textarea{
     background-color: #555;
 }
 
+h1{
+    color: #cd7f32;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
 
+}
 footer {
     text-align: center;
     padding: 20px 0;
