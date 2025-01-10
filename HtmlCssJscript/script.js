@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault(); // Evita el envío real del formulario
 
         // Muestra un mensaje de confirmación
-        alert('Gracias por tus preguntas y comentarios');
+        alert('Gracias por tus preguntas y comentarios, pronto me pondre en contacto.');
 
         //reinicia el formulario
         contactForm.reset();

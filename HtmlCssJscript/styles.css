@@ -6,6 +6,8 @@ body {
     line-height: 1.6;
     background-color: #d9cab3;
     color: #1b1a19;
+    font-size: 20px;
+
 }
 
 header {
@@ -28,7 +30,16 @@ header {
         padding: 10px;
         border: 2px solid #cd7f32;   
 }
- 
+
+.git img {
+    height:auto ; /*DEFORMA LA IMAGEN*/
+        width: 300px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
+        margin: auto;  /*centra la imagen (contenedores)*/
+        display: block;
+        border-radius: 5px ;/*redondeas los radios*/
+        padding: 10px;
+        
+}
 .proyecto img{
         height:auto ; /*DEFORMA LA IMAGEN*/
         width: 500px;  /*se ejecuta primero que en HTML, puedes trabajar con porcentajes*/
@@ -41,7 +52,7 @@ header {
         border: 2px solid #cd7f32;   
         
  }
-.links li a{
+.links li a {
     color: #1b1a19;
     text-decoration: none;
 }
@@ -84,7 +95,7 @@ main {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .proyectos-lista {
@@ -158,7 +169,7 @@ h1{
     color: #cd7f32;
     text-align: center;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 45px;
 
 }
 footer {
